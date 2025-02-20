@@ -6,7 +6,7 @@ namespace DemoMVC.Controllers;
 
 public class StudentController : Controller
 {
-        public IActionResult Student()
+        public IActionResult Index()
     {
         return View();
     }
